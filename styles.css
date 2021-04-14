@@ -1,6 +1,65 @@
 .main_container{
   margin-left: 0vw;
   margin-right: 0vw;
+  background-color: lavender;
+
+}
+
+.header{
+  height: 400px;
+  background-color: lavender;
+  background-image: url("images/header.jpg");
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  font-size: 13vh;
+  color: white;
+  font-family: Optima, sans-serif;
+}
+body{
+  margin: 0;
+}
+h3{
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: 'Dancing Script', cursive;
+}
+h4{
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.zodiacs{
+  background-color: lavender;
+}
+#collectionOfZodiacs{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
 
 
+.zodiacSign{ /* styling the boxes*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+img{
+  height: 200px;
+  width:200px;
+  align-self: center;
+}
+.jsonContainer{
+  padding: 10px;
 }
